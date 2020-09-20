@@ -7,7 +7,7 @@ As most solution you can find on internet, you can read the properties file with
 ```java
   Properties prop=new Properties();
   InputStreamReader isr = new InputStreamReader(new FileInputStream(file), "UTF-8");
-	prop.load(isr);
+  prop.load(isr);
 ```
 You can load the UTF-8 characters correctly, but you will lost the correct characters after you store back value which user changed.
 
