@@ -1,3 +1,5 @@
+
+
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -13,7 +15,6 @@ public class Props extends java.util.Properties {
 	}
 
 	public void store(BufferedWriter bw, String comments) throws IOException {
-		System.out.println("Prop write properties...");
 		// BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(out, "UTF-8"));
 
 		if (comments != null) {
