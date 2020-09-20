@@ -13,5 +13,5 @@ You can load the UTF-8 characters correctly, but you will lost the correct chara
 
 For fix the trouble, I read the source code of Properties of version Java8, I made a object named Props that extend the java.util.Properties for fix the trouble, it fully compatible the Properties object.
 
-Notice:
-  The modification just only for key=value pair format, it not change anything for xml format, it may not help you if you are searching for xml solution.
+***Notice:
+  The modification just only for key=value pair format, it not change anything for xml format, it may not help you if you are searching for xml solution.***
