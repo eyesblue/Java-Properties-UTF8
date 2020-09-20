@@ -15,7 +15,6 @@ public class Props extends java.util.Properties {
 	}
 
 	public void store(BufferedWriter bw, String comments) throws IOException {
-		// BufferedWriter bw=new BufferedWriter(new OutputStreamWriter(out, "UTF-8"));
 
 		if (comments != null) {
 			writeComments(bw, comments);
