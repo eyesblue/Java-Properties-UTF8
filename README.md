@@ -15,8 +15,8 @@ For fix the trouble, I read the source code of Properties of version Java8, I ma
 
 Now, you can call store as:
 ```
-	BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
-	prop.store(br, comments);
+  BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file), "UTF-8"));
+  prop.store(br, comments);
 ```
 
 or just call as Properties.store():
