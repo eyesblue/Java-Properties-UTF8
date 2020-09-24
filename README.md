@@ -21,7 +21,7 @@ Now, you can call store as:
 
 or just call sa Properties.store:
 ```
-  prop.stoer();
+  prop.store();
 ```
 it write with UTF-8 internally.
 
