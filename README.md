@@ -25,5 +25,6 @@ or just call as Properties.store():
 ```
 it write with UTF-8 internally.
 
+
 ***Notice:
   The modification just only for key=value pair format, it not change anything for xml format, it may not help you if you are searching for xml format solution.***
