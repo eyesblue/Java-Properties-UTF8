@@ -19,7 +19,7 @@ Now, you can call store as:
 	prop.store(br, comments);
 ```
 
-or just call sa Properties.store:
+or just call as Properties.store():
 ```
   prop.store();
 ```
